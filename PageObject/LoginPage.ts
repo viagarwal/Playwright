@@ -41,7 +41,7 @@ export class LoginPage {
      async doLoginWithValidEmail(username: string) {
         await this.EmailId.fill(username);
         await this.ContinueBtn.click();
-        await this.page.waitForLoadState('networkidle');
+        await this.page.waitForLoadState('load');   
     }
 
 
