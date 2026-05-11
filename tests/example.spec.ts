@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 
+test.describe.configure({ mode: 'parallel'}); // Configure parallel execution for all tests in this file
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 

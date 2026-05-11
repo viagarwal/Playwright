@@ -16,8 +16,8 @@ export class LoginPage {
         this.AccountAndListLink = page.locator("a[data-csa-c-content-id='nav_ya_signin']");
         this.SignInLink = page.locator("div#nav-link-accountList");
         this.EmailId = page.locator("input[name='email']");
-        this.ContinueBtn = page.locator("input[type='submit']");
-        this.errortxt = page.locator("div#invalid-email-alert")
+        this.ContinueBtn = page.locator("input[type='submit']").filter({ visible: true});    
+        this.errortxt = page.locator("div#invalid-email-alert");
 
     }
 
