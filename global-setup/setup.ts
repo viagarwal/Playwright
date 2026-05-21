@@ -5,6 +5,7 @@ async function globalSetup(config: FullConfig) {
   const browser = await chromium.launch();
   const page = await browser.newPage();
   await page.goto('https://www.amazon.in/');
+  await browser.close();
 }
 
 export default globalSetup;

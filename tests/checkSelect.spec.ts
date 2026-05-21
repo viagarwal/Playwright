@@ -1,7 +1,7 @@
 import { expect, Locator, Page, test } from "@playwright/test";
 
 
-test("check select dropdown", async ({ page }) => {
+test("@Web check select dropdown", async ({ page }) => {
     await page.goto("https://www.amazon.in/");
    
     await page.waitForLoadState("load");

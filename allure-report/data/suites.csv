@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9021","@Web handle new window","firefox","2026-05-15","passed","2026-05-15","","HandleNewWindow.spec.ts","",""
+"","5647","@Web handle new window","chromium","2026-05-15","passed","2026-05-15","","HandleNewWindow.spec.ts","",""
+"","9750","@Web check select dropdown","firefox","2026-05-15","passed","2026-05-15","","checkSelect.spec.ts","",""
+"","6890","@Web check select dropdown","Samsung Galaxy S20 Ultra","2026-05-15","passed","2026-05-15","","checkSelect.spec.ts","",""
+"","4503","@Web check select dropdown","chromium","2026-05-15","passed","2026-05-15","","checkSelect.spec.ts","",""
+"","7759","@Web handle new window","Samsung Galaxy S20 Ultra","2026-05-15","passed","2026-05-15","","HandleNewWindow.spec.ts","",""
