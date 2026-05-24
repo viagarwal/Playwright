@@ -22,5 +22,4 @@ test("@Web check select dropdown", async ({ page }) => {
     await expect(dropdown).toHaveValue("search-alias=computers");
     
         // await dropdown.selectOption("search-alias=electronics");
-
 });
