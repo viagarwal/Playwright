@@ -34,38 +34,13 @@ ids.add(1);
 ids.add("vipul");
 var bool : boolean = ids.has("vipul");
 console.log(bool);
+console.log(ids.size);  
+ids.delete(1);
+console.log(ids.size);  
+ids.clear();
+console.log(ids.size);  
+ids.add(1);
+ids.add("vipul");
+console.log(ids.size);  
+ids.add("vipul");
 console.log(ids.size);
-const userRoles: Record<string, string> = {
-  "admin": "Full Access",
-  "editor": "Edit Content",
-  "viewer": "Read Only"
-};
-
-for (const [key, value] of Object.entries(userRoles)) {
-  console.log(`${key}: ${value}`);
-  console.log(key)
-}
-
-
-
-console.log(userRoles["admin"]);
-console.log(Object.keys(userRoles).length); 
-
-const userRoles1 = new Map<string, string>();
-userRoles1.set("alice", "admin");
-userRoles1.set("bob", "editor");
-console.log(userRoles1.get("alice"));
-console.log(userRoles1.has("bob"));
-console.log(userRoles1.size);
-console.log(userRoles1.keys());
-
-for (const [user, role] of userRoles1) {
-  console.log(`${user}: ${role}`);
-}
-
-
-
-
-
-
-

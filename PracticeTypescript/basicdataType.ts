@@ -21,6 +21,10 @@ console.log(x)
 var x1 = x+d
 console.log(x1)
 
+var y1: any = [1,"Hello",true,3.14 ]
+console.log(y1)
+
+
 if (x1 > 10) {
     console.log("x1 is greater than 10")
 } 
